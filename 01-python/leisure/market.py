@@ -62,4 +62,8 @@ def draw_market(length = 36, category = "food"):
     else:
         drawFruitMarket(length)
     drawHorizontalLines(length)
+<<<<<<< HEAD
     return
+=======
+    return
+>>>>>>> a33c656f6ba099eba21f67ff0c695c8bf513182e
