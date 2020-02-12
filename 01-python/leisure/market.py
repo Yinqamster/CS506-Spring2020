@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def draw_market(height = 10):
     if(height == 0): 
         print("market height is invalid!")
@@ -15,7 +14,7 @@ def draw_market(height = 10):
         print("    |       |                  |     |")
     print("    |_______|__________________|_____|")
     return
-=======
+
 def drawHorizontalLines(length):
     print()
 
@@ -64,4 +63,3 @@ def draw_market(length = 36, category = "food"):
         drawFruitMarket(length)
     drawHorizontalLines(length)
     return
->>>>>>> 0e9345cda92eb5709818714a905c011dfd8d30ce
