@@ -3,6 +3,7 @@ import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 
 boat = np.loadtxt('data/boat.dat')
+print(boat.shape)
 plt.figure()
 _ = plt.imshow(boat,cmap = cm.Greys_r)
 plt.show()
